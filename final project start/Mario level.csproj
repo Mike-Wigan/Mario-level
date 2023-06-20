@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3162C721-0A41-4816-A6B9-A7D0E221EDFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>final_project_start</RootNamespace>
+    <AssemblyName>final project start</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario jumping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario on pole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario running 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario running 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario running 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario runnning 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario still.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back ground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-webp-to-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_jumping-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_on_pole-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_4-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_2-removebg left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_4-removebg left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dead mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_jumping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_2 left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_4 left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_running_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_runnning_3-removebg left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_runnning_3-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_still-removebg left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_still-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_jumping left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groundblock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_thing-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light green thing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigcloud-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smallcloud-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 light bush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 light bush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small_hill-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_light_bush-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_green_thing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_green_thing-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud3 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud3 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloud3-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigpipe-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medpipe-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipe-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigpipe__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medpipe__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pipe__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigpipe__2_-removebg-preview-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
